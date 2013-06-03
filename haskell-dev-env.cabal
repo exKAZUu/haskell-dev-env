@@ -31,7 +31,7 @@ Test-suite hspec
   Main-Is:             Spec.hs
   Other-Modules:       SortSpec
   Type:                exitcode-stdio-1.0
-  build-depends:       base ==4.5.*, hspec ==1.5.*, haskell-dev-env
+  build-depends:       base ==4.5.*, hspec ==1.5.*, QuickCheck, haskell-dev-env
 
 Test-Suite doctest
   Type:                exitcode-stdio-1.0
